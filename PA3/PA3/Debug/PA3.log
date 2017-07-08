@@ -1,0 +1,6 @@
+﻿  ReadMap.cpp
+c:\users\aditi\desktop\computatioal genomics\pa3\pa3\pa3\readmap.cpp(74): warning C4018: '<': signed/unsigned mismatch
+c:\users\aditi\desktop\computatioal genomics\pa3\pa3\pa3\readmap.cpp(95): warning C4018: '<': signed/unsigned mismatch
+c:\users\aditi\desktop\computatioal genomics\pa3\pa3\pa3\readmap.cpp(204): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  PA3.vcxproj -> C:\Users\Aditi\Desktop\Computatioal Genomics\PA3\PA3\Debug\PA3.exe
+  PA3.vcxproj -> C:\Users\Aditi\Desktop\Computatioal Genomics\PA3\PA3\Debug\PA3.pdb (Partial PDB)

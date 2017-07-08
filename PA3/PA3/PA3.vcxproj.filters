@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Input Files">
+      <UniqueIdentifier>{aeee5ba7-2529-4edb-b802-e9c80dbc692c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Local Alignment">
+      <UniqueIdentifier>{44b94e21-ea88-4641-9e20-4f3ae0ec322c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Suffix Tree">
+      <UniqueIdentifier>{95539dfb-bd5a-44ae-8103-2a524e3513bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Read Map">
+      <UniqueIdentifier>{c429dd1a-113e-4482-92fe-bd0134201d70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\IO and Memory">
+      <UniqueIdentifier>{2f213713-c9cc-4186-984f-333e8e42f72c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalAlignment.cpp">
+      <Filter>Source Files\Local Alignment</Filter>
+    </ClCompile>
+    <ClCompile Include="SuffixTree.cpp">
+      <Filter>Source Files\Suffix Tree</Filter>
+    </ClCompile>
+    <ClCompile Include="ReadMap.cpp">
+      <Filter>Source Files\Read Map</Filter>
+    </ClCompile>
+    <ClCompile Include="InputOutput.cpp">
+      <Filter>Source Files\IO and Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="Memory.cpp">
+      <Filter>Source Files\IO and Memory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Cell.h">
+      <Filter>Source Files\Local Alignment</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalAlignment.h">
+      <Filter>Source Files\Local Alignment</Filter>
+    </ClInclude>
+    <ClInclude Include="SuffixTree.h">
+      <Filter>Source Files\Suffix Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Source Files\Suffix Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="ReadMap.h">
+      <Filter>Source Files\Read Map</Filter>
+    </ClInclude>
+    <ClInclude Include="InputOutput.h">
+      <Filter>Source Files\IO and Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>Source Files\IO and Memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Cherry_reads_real.fasta">
+      <Filter>Source Files\Input Files</Filter>
+    </None>
+    <None Include="Peach_genome_real.fasta">
+      <Filter>Source Files\Input Files</Filter>
+    </None>
+    <None Include="Peach_genome_synthetic.fasta">
+      <Filter>Source Files\Input Files</Filter>
+    </None>
+    <None Include="Peach_reads_synthetic.fasta">
+      <Filter>Source Files\Input Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="alphabetA-Z.txt">
+      <Filter>Source Files\Input Files</Filter>
+    </Text>
+    <Text Include="alphabetDNA.txt">
+      <Filter>Source Files\Input Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
